@@ -15,5 +15,6 @@ RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 
 RUN pip install beautifulsoup4
+RUN pip install python-dotenv
 
 RUN python -m pip install jupyterlab
